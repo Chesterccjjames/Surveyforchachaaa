@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Survey for Charisse 💖</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8bbd0; /* soft pink background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .survey-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    .survey-box h2 {
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    .survey-box input {
+      width: 90%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .survey-box button {
+      background: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .letter-container {
+      display: none;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      width: 80%;
+      max-width: 500px;
+      height: 400px;
+      overflow-y: auto;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .letter-container h2 {
+      text-align: center;
+      color: #e91e63;
+    }
+
+    .letter-container p {
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="survey-box" id="surveyBox">
+    <h2>Quick Survey</h2>
+    <p>Mahal, sagutin mo muna ito 🥰</p>
+    <input type="text" placeholder="Favorite color mo" required>
+    <input type="text" placeholder="Favorite food mo" required>
+    <input type="text" placeholder="One word to describe our relationship" required>
+    <button onclick="showLetter()">Submit</button>
+  </div>
+
+  <div class="letter-container" id="letterContainer">
+    <h2>Happy 1st Anniversary, Chachaa ko, my bebeloves foreverr!! 🌸💖</h2>
+    <p>
+      My love, today marks one year of our journey together, and I can’t help but feel overwhelmed with gratitude for every single moment we’ve shared. From our sweetest laughs to the challenges we’ve faced, each memory has only made my love for you stronger.
+    </p>
+    <p>
+      I want you to know that you are my safe place, my joy, and the most beautiful blessing that ever happened to me. Thank you for loving me the way you do, for being patient, for making my days brighter, and for showing me what true love really feels like.
+    </p>
+    <p>
+      No matter where life takes us, I will always choose you. I will always hold on to us. This is just the beginning of a lifetime of love, growth, and unending support for one another.
+    </p>
+    <p>
+      Happy Anniversary, my Charisse. Here’s to many more years of laughter, love, and endless adventures with you. I love you more than words could ever explain. 💖🌹
+    </p>
+  </div>
+
+  <script>
+    function showLetter() {
+      document.getElementById("surveyBox").style.display = "none";
+      document.getElementById("letterContainer").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
